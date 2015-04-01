@@ -51,7 +51,7 @@ package() {
   install -Dm644 api/sphinxapi.py "${pkgdir}/usr/share/sphinx/lib/sphinxapi.py"
   install -Dm644 "${srcdir}/sphinx.tmpfiles.conf" "${pkgdir}/usr/lib/tmpfiles.d/sphinx.conf"
 }
-md5sums=('60647f3957dcd83b548fae3a1f5a8c98'
+md5sums=('dad3b5c98615c2577741e62c444d966b'
          '48e3e1857919d26d5104a48caffb531b'
          'faaa8310af97ff1dbdaf08612e442020'
          '335138a5893192dcf4355d3d02beb4c1'
